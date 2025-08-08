@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Voluntarios</title>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}">
+</head>
+<body>
+    <h1> Bienvenido, <span th:text="${usuario.nombre}"></span></h1>
+    <nav>
+        <a th:href="@{/voluntarios}"> Gestionar Voluntarios </a>
+        <a th:href="@{/logout}"> Cerrar sesión</a>
+    </nav>
+
+    <section>
+      <h2> Resumen General</h2>
+      <p>aqui ira un resumen de datos importantes de tu base.</p>
+    </section>
+</body>
+</html>

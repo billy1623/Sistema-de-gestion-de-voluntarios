@@ -12,7 +12,7 @@
 	<artifactId>sistema_voluntario</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sistema_voluntario</name>
-	<description>sistema de volunatrios con Spring Boot</description>
+	<description>sistema de voluntarios con Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -34,10 +34,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-security</artifactId>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
